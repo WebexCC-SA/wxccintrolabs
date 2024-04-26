@@ -1,8 +1,8 @@
 ---
 layout: home
-# title: 'Webex CC Lab guides'
-# permalink: /
-# cover: /wxccintrolabs/assets/gitbook/images/Home.jpeg
+title: 'Webex CC Lab guides'
+permalink: /
+cover: /wxccintrolabs/assets/gitbook/images/Home.jpeg
 ---
 
 
@@ -34,14 +34,14 @@ layout: home
 <!-- <!DOCTYPE html> -->
 <!-- <html lang="en"> -->
 
-<head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webex Contact Center Knowledge Hub</title>
   <script type="module" src="https://webexcc-sa.github.io/dist/hub-widgets/hub-widgets.esm.js"></script>
   <script nomodule src="https://webexcc-sa.github.io/dist/index.js"></script>
   <link rel="stylesheet" href="https://webexcc-sa.github.io/style.css">
-</head>
+
 
 <body>
   <pagetitle>
