@@ -1,8 +1,5 @@
 ---
 layout: home
-title: 'Webex CC Lab guides'
-permalink: /
-cover: /wxccintrolabs/assets/gitbook/images/Home.jpeg
 ---
 
 
@@ -41,7 +38,7 @@ cover: /wxccintrolabs/assets/gitbook/images/Home.jpeg
   <script type="module" src="https://webexcc-sa.github.io/dist/hub-widgets/hub-widgets.esm.js"></script>
   <script nomodule src="https://webexcc-sa.github.io/dist/index.js"></script>
   <link rel="stylesheet" href="https://webexcc-sa.github.io/style.css">
-
+<style> .page-inner{max-width:unset;}</style>
 
 <body>
   <pagetitle>
@@ -54,4 +51,3 @@ cover: /wxccintrolabs/assets/gitbook/images/Home.jpeg
   <k-hub-links l-list="https://webexcc-sa.github.io/links.json"></k-hub-links>
 </body>
 
-</html>
