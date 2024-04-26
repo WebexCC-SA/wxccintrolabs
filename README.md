@@ -1,5 +1,8 @@
 ---
 layout: home
+title: ''
+permalink: /
+# cover: /wxccintrolabs/assets/gitbook/images/Home.jpeg
 ---
 
 
