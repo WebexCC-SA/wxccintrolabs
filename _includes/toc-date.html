@@ -18,8 +18,8 @@
             </li>
 
             <li class="divider"></li>
-<!-- this is a changed line -->
-            {% for collection in site.collections | where:"hide", "false"%}
+
+            {% for collection in site.collections%}
                 <!-- <p>{{ collection.label }}</p> -->
                 {% if collection.output %}
                     {% if collection.label == "posts" %}
@@ -27,8 +27,8 @@
                     {% else %}
                         {% assign reversed_posts = site[collection.label] %}
                     {% endif %}
-
-                    {% for post in reversed_posts %}
+<!-- this is a changed line -->
+                    {% for post in reversed_posts  | where:"hide", "false" %}
                         {% if page.url == post.url %}
                         <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                         {% else %}
