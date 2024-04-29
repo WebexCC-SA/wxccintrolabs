@@ -49,13 +49,7 @@ permalink: /
 
   </pagetitle>
 
- <div id="book-search-input" role="search">
-            <input type="text" placeholder="Type to search" />
-        </div>
-        <div id="book-search-input-link" role="search">
-            <a href="{{site.baseurl}}/assets/search.html">Click to Search</a>
-        </div>
-        
+
   <k-hub-tiles t-list="https://webexcc-sa.github.io/tiles.json,https://webexcc-sa.github.io/tools/advertise/tiles.json"></k-hub-tiles>
   <k-hub-links l-list="https://webexcc-sa.github.io/links.json"></k-hub-links>
 </body>
