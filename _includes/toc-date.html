@@ -27,8 +27,7 @@
                     {% else %}
                         {% assign reversed_posts = site[collection.label] %}
                     {% endif %}
-<!-- this is a changed line -->
-                    {% for post in reversed_posts  | where:"hide", "false" %}
+                    {% for post in reversed_posts%}
                         {% if page.url == post.url %}
                         <li class="chapter active" data-level="1.2" data-path="{{site.baseurl}}{{post.url}}">
                         {% else %}
