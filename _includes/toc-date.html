@@ -18,8 +18,8 @@
             </li>
 
             <li class="divider"></li>
-
-            {% for collection in site.collections %}
+<!-- this is a changed line -->
+            {% for collection in site.collections | where:"hide", "false"%}
                 <!-- <p>{{ collection.label }}</p> -->
                 {% if collection.output %}
                     {% if collection.label == "posts" %}
